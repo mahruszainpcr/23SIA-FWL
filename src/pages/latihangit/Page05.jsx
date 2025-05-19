@@ -3,8 +3,8 @@ import { User, CreditCard, Repeat } from "lucide-react";
 const customers = [
   {
     nama: "Ibrahim",
-    transaksi: 12,
-    frekuensi: "Bulanan",
+    transaksi: 100,
+    frekuensi: "Tahunan",
   },
   {
     nama: "Bento",
