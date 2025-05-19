@@ -19,6 +19,7 @@ import Page27 from '../pages/latihangit/Page27';
 import PageNFM from '../pages/latihangit/PageNFM';
 import Page00 from '../pages/latihangit/Page00.jsx';
 import Page30 from '../pages/latihangit/page30.jsx';
+import Page22 from '../pages/latihangit/Page22.jsx';
 
 
 const App = () => {
@@ -36,6 +37,7 @@ const App = () => {
                                 <Route path="Page00" element={<Page00 />}/>
                                 <Route path="pagenfm" element={<PageNFM />} />
                                 <Route path="/page30" element={<Page30 />} />
+                                <Route path="/page22" element={<Page22/>} />
                 </Route>
                 <Route path='/login' element={<Login />} />
                 <Route path="*" element={<Error/>} />
