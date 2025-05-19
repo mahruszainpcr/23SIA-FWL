@@ -62,6 +62,7 @@ export default function Sidebar() {
                         </NavLink>
                        
                      </li>
+                    
                 </ul>
             </nav>
             <button className="flex items-center space-x-3 p-3 hover:bg-red-500 rounded-md cursor-pointer">

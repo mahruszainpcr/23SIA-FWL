@@ -162,6 +162,20 @@ export default function Sidebar() {
               Login
             </NavLink>
           </li>
+          <li >
+            <NavLink
+                  to="/Page17"
+                  end
+                  className={({isActive}) =>
+                  `${baseClass} ${isActive ? activeClass : "hover:bg-gray-700"}` 
+                  }
+                  aria-label="Navigate to page 17"
+            >
+              <FaSignInAlt/>
+              <span>Page 17</span>
+              </NavLink>
+              
+          </li>
         </ul>
       </div>
 
