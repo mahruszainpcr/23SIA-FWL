@@ -7,7 +7,8 @@ import {
 } from "react-icons/md";
 import { AiOutlineUnorderedList } from "react-icons/ai";
 import { RiCustomerServiceFill } from "react-icons/ri";
-import { FaSignInAlt } from "react-icons/fa";
+import { FaSignInAlt, FaUserAlt } from "react-icons/fa";
+import { FaPeopleGroup } from "react-icons/fa6";
 
 const baseClass = "flex items-center px-4 py-2 rounded-md hover:bg-gray-100 transition";
 const activeClass = "bg-green-100 text-green-600 font-semibold";
@@ -142,7 +143,21 @@ export default function Sidebar() {
               aria-label="Navigate to Page MMZ"
             >
               <FaSignInAlt className="mr-4 text-xl" />
-              Page 04
+              Page 27
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink
+              to="/page30"
+              end
+              className={({ isActive }) =>
+                `${baseClass} ${isActive ? activeClass : ""}`
+              }
+              aria-label="Navigate to Page MMZ"
+            >
+              <FaUserAlt className="mr-4 text-xl" />
+              Page 30
             </NavLink>
           </li>
           <li>
