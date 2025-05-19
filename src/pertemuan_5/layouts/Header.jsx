@@ -36,7 +36,7 @@ export default function Header() {
               
                 <div id="profile-container" className="flex items-center space-x-4 border-l pl-4 border-gray-300">
                     <span id="profile-text">
-                        Hello, <b>Keisha Vioreen</b>
+                        Hello, <b>Lidya Rahmawati</b>
                     </span>
                     <img
                         id="profile-avatar"
