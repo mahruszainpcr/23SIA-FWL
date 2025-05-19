@@ -14,12 +14,12 @@ import Login from './pages/Login';
 import Error401 from './pages/Error401';
 import MainLayout from './layouts/MainLayout';
 import Page04 from '../pages/latihangit/page04.jsx';
-
 import Page27 from '../pages/latihangit/Page27';
 import PageNFM from '../pages/latihangit/PageNFM';
 import Page00 from '../pages/latihangit/Page00.jsx';
 import Page30 from '../pages/latihangit/page30.jsx';
 import Page22 from '../pages/latihangit/Page22.jsx';
+import Page01 from '../pages/latihangit/Page01.jsx';
 
 
 const App = () => {
@@ -38,6 +38,7 @@ const App = () => {
                                 <Route path="pagenfm" element={<PageNFM />} />
                                 <Route path="/page30" element={<Page30 />} />
                                 <Route path="/page22" element={<Page22/>} />
+                                <Route path="/page01" element={<Page01></Page01>} />
                 </Route>
                 <Route path='/login' element={<Login />} />
                 <Route path="*" element={<Error/>} />
