@@ -61,7 +61,7 @@ const DaftarTugas = () => {
                 <p className="text-base">{task.deadline}</p>
               </div>
               <div>
-                <p className="text-sm text-gray-600">Status</p>
+                <p className="text-sm text-gray-600">Status.</p>
                 <p className="text-base font-semibold">{task.status}</p>
               </div>
             </div>
