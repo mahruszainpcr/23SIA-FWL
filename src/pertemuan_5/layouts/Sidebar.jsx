@@ -146,7 +146,19 @@ export default function Sidebar() {
             </NavLink>
           </li>
 
-          
+          <li>
+            <NavLink
+              to="/page28"
+              end
+              className={({ isActive }) =>
+                `${baseClass} ${isActive ? activeClass : ""}`
+              }
+              aria-label="Navigate to Page MMZ"
+            >
+              <FaSignInAlt className="mr-4 text-xl" />
+              Page 28
+            </NavLink>
+          </li>
 
           {/* Login */}
           <li>
@@ -164,6 +176,7 @@ export default function Sidebar() {
           </li>
         </ul>
       </div>
+      
 
       {/* Footer */}
       <div id="sidebar-footer" className="mt-auto">
